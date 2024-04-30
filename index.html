@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <div class="header__top__navbar">
+            <nav></nav>
+            <div class="header__top__links"></div>
+          </div>
+        </div>
+        <div class="header__wrapper">
+          <h1>
+            <img src="logo.png" alt="Logo" />
+            Emploi et Formation professionnelle en Wallonie
+          </h1>
+          <div class="header__wrapper__content">
+            <div class="header__wrapper__content__search">
+              <input type="text" placeholder="Rechercher" />
+              <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+            <ul class="header__wrapper__content__socials">
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header_bottom">
+          <nav class="primary__navigation">
+            <ul>
+              <li class="primary__navigation__item">
+                <a href="#">Création d'entreprise</a>
+                <ul class="primary__navigation__item__nav">
+                  <li>
+                    <a href="#">Chèques</a>
+                    <ul class="primary__navigation__item__nav__sub">
+                      <li>
+                        <a href="#">Chèques-entreprises</a>
+                      </li>
+                      <li>
+                        <a href="#">Chèques-formation</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="#">Structures d'accompagnement à l'auto-création d'emploi (SAACE)</a>
+                    <ul class="primary__navigation__item__nav__sub">
+                      <li>
+                        <a href="#">Liste des SAACE agréées</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="primary__navigation__item">
+                <a href="#">Création d'entreprise</a>
+                <ul class="primary__navigation__item__nav">
+                  <li>
+                    <a href="#">Chèques</a>
+                    <ul class="primary__navigation__item__nav__sub">
+                      <li>
+                        <a href="#">Chèques-entreprises</a>
+                      </li>
+                      <li>
+                        <a href="#">Chèques-formation</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
